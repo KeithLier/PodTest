@@ -8,10 +8,11 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "PodTest"
+  spec.name         = "PodKitTest"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of PodTest."
+  spec.summary      = "black manba"
   spec.description  = <<-DESC
+                      What can i say, manba out
                    DESC
 
   spec.homepage     = "https://github.com/liliang1314/PodTest"
@@ -20,8 +21,8 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
 
   spec.source       = { :git => "https://github.com/liliang1314/PodTest.git", :tag => "#{spec.version}" }
-  spec.source_files  = "PodTest", "PodTest/**/*.{h,m}"
-
+  spec.source_files  = "PodTest/PodTest/*.{h,m,swift}"
+  spec.swift_version = "4.0"
   # spec.requires_arc = true
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
